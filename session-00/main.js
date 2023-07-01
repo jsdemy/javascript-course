@@ -5,3 +5,6 @@ console.log("Hello World from JavaScript")
 
 console.warn("this is warning message")
 console.error("this is error message")
+
+
+document.getElementById('p-content').innerHTML = "Hello <mark>javascript</mark>";
