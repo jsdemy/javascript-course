@@ -8,3 +8,5 @@ console.error("this is error message")
 
 
 document.getElementById('p-content').innerHTML = "Hello <mark>javascript</mark>";
+
+document.write('document.write() executed. <b>NICE :D</b>')
