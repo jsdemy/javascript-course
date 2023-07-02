@@ -5,3 +5,9 @@ console.log(firstName)
 
 var lastName;
 console.log(lastName);
+
+
+let x = 10;
+console.log(x);
+x = x * 250;
+console.log(x)
