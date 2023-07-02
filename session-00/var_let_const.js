@@ -26,4 +26,4 @@ console.log(x % num);
 const pi = 3.14;
 console.log(pi)
 // pi = 4.023; // Uncaught TypeError: Assignment to constant variable.
-console.log(pi)
+console.log(pi + 46)
