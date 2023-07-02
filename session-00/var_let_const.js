@@ -25,5 +25,5 @@ console.log(x % num);
 // const c; // Uncaught SyntaxError: Missing initializer in const declaration
 const pi = 3.14;
 console.log(pi)
-pi = 4.023; // Uncaught TypeError: Assignment to constant variable.
+// pi = 4.023; // Uncaught TypeError: Assignment to constant variable.
 console.log(pi)
