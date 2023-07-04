@@ -47,3 +47,10 @@ function calculator(x, y, operator){
     }
     return result;
 }
+
+console.log(calculator(5, -3, '+'))
+console.log(calculator(5, -3, '-'))
+console.log(calculator(5, -3, '*'))
+console.log(calculator(5, -3, '**'))
+console.log(calculator(5, -3, '/'))
+console.log(calculator(5, -3, '%'))
