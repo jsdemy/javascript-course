@@ -99,3 +99,4 @@ console.log(arr[7][1]) // hassan
 people[5] = 'jack';
 
 console.log(people) // ['ali', 'hassan', 'sara', 'melika', empty, 'jack']
+console.log(people[4]) // undefined: because item's value is empty
