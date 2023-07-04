@@ -143,3 +143,7 @@ console.log(txt);
 console.log(`txt.length: ${txt.length}`);
 console.log(`txt.lastIndexOf('this'): ${txt.lastIndexOf('this')}`);
 console.log(`txt.lastIndexOf('specified'): ${txt.lastIndexOf('specified')}`);
+console.log('================')
+// slice method
+console.log(txt.slice(278))
+console.log(txt.slice(start=270))
