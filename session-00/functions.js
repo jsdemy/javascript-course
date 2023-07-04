@@ -54,3 +54,11 @@ console.log(calculator(5, -3, '*'))
 console.log(calculator(5, -3, '**'))
 console.log(calculator(5, -3, '/'))
 console.log(calculator(5, -3, '%'))
+
+// Arrow Function
+
+const myFunc = (firstName, lastName)=>{
+    return `Hello ${firstName} ${lastName}`;
+}
+
+console.log(myFunc('sanaz', 'bahrami'));
