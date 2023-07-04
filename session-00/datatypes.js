@@ -40,5 +40,9 @@ console.log(num)
 console.log(50 % 5)
 console.log(13 % 2)
 
+let fn = 'sara', ln = 'ahmadi';
+const fullName = fn + ' ' + ln;
+console.log(fullName);
+
 
 
