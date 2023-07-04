@@ -93,3 +93,7 @@ console.log(f2(120, 48));
 // Syntax for Function Expression (named): 
 // let variableName = function functionName(x, y) 
 // { statements... return (z) };
+
+// Syntax for Arrow Function:
+// Arrow functions{()=>} are a clear and concise method of writing normal/regular Javascript functions in a more accurate and shorter way. Arrow functions were introduced in the ES6 version. They make our code more structured and readable.
+// Arrow functions are anonymous functions i.e. they are functions without a name and are not bound by an identifier. Arrow functions do not return any value and can be declared without the function keyword. They are also called Lambda Functions.
