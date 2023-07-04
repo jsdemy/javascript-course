@@ -8,6 +8,8 @@
 // Function Declaration
 // A basic javascript function, here we create a function that divides the 1st element by the second element.
 function myFunction(){
-    console.log('i am myFunction')
+    console.log('i am myFunction');
 }
 
+// call myFunction() function
+myFunction();
