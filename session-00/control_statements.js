@@ -50,3 +50,9 @@ console.log(calculator(5, -3, '/'))
 console.log(calculator(5, -3, '%'))
 
 // loop
+// for:
+for(let i = 0; i <= 10; i++){
+    console.log(i)
+}
+
+
