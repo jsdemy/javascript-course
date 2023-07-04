@@ -62,3 +62,20 @@ const myFunc = (firstName, lastName)=>{
 }
 
 console.log(myFunc('sanaz', 'bahrami'));
+
+
+// Function Expression (anonymous or named)
+// Example 01: Function Expression (anonymous)
+let f1 = function(x, y) {
+    return x + y;
+}
+
+console.log(f1(12, 48));
+
+
+// Example 02: Function Expression (named)
+let f2 = function multiply(x, y) {
+    return x * y;
+}
+
+console.log(f2(120, 48));
