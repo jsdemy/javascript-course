@@ -123,3 +123,6 @@ console.log(people)
 
 // indexOf
 console.log(people.indexOf('sara'))
+
+// lastIndexOf
+console.log(people.lastIndexOf())
