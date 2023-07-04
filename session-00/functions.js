@@ -13,3 +13,9 @@ function myFunction(){
 
 // call myFunction() function
 myFunction();
+
+function welcome(name){
+    console.log(`Welcome ${name}`);
+}
+
+welcome('Mir Hassan Moosavi');
