@@ -30,4 +30,8 @@ console.log((p2.grades.Biology + p2.grades.Math + p2.grades.Physics)/3);
 
 // change object property value
 p2.grades.Biology = 60;
-console.log(p2.grades)
+console.log(p2.grades);
+
+// add a new property to existing object
+p2.email = 'hassan@gmail.com';
+console.log(p2);
