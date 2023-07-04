@@ -58,8 +58,8 @@ console.log(myStr)
 console.log(myStr.toUpperCase())
 console.log(myStr.toLocaleLowerCase())
 console.log(myStr[3])
-console.log(myStr.substring(0,9))
-console.log(myStr.substring(3,12))
+console.log(myStr.substring(0, 9))
+console.log(myStr.substring(3, 12))
 
 
 /*
@@ -115,7 +115,7 @@ console.log(people) // the last item is gone!
 
 // get last item
 let lastItem = people.pop()
-console.log(lastItem) 
+console.log(lastItem)
 
 // change item value
 people[4] = 'ahura'
@@ -126,3 +126,20 @@ console.log(people.indexOf('sara'))
 
 // lastIndexOf
 console.log(people.lastIndexOf())
+
+let a2 = [1, 0, 1, 2, 3, 5, 2]
+console.log(a2.lastIndexOf(2))
+
+let txt = `
+The lastIndexOf() method of String values 
+searches this string and returns the index of 
+the last occurrence of the specified substring. 
+It takes an optional starting position and returns 
+the last occurrence of the specified substring at 
+an index less than or equal to the specified number.
+`;
+
+console.log(txt);
+console.log(`txt.length: ${txt.length}`);
+console.log(`txt.lastIndexOf('this'): ${txt.lastIndexOf('this')}`);
+console.log(`txt.lastIndexOf('specified'): ${txt.lastIndexOf('specified')}`);
