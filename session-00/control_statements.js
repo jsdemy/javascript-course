@@ -73,6 +73,12 @@ for (const item of courses) {
     console.log(item)
 }
 
+// iterating index and value of earch item
+console.log('----index and value----')
+for (let [index, value] of courses.entries()){
+    console.log(index, value)
+}
+
 
 // for..in
 console.log('--------for..of--------')
