@@ -27,3 +27,7 @@ console.log(p1.chessScores[2]);
 console.log(`"${p2.firstName} ${p2.lastName}" grade in Physics is: ${p2.grades.Physics}`);
 
 console.log((p2.grades.Biology + p2.grades.Math + p2.grades.Physics)/3);
+
+// change object property value
+p2.grades.Biology = 60;
+console.log(p2.grades)
