@@ -49,10 +49,22 @@ console.log(calculator(5, -3, '**'))
 console.log(calculator(5, -3, '/'))
 console.log(calculator(5, -3, '%'))
 
-// loop
-// for:
+// loops
+// for loop
+console.log('--------for loop--------')
 for(let i = 0; i <= 10; i++){
     console.log(i)
 }
+
+
+
+//while loop
+console.log('--------while loop--------')
+i = 13; // sentinal value
+while (i <= 20){
+    console.log(i)
+    i++;
+}
+
 
 
