@@ -89,3 +89,8 @@ console.log(arr)
 console.log(people.length)
 console.log(arr.length)
 
+console.log(people[2])
+console.log(arr[2])
+
+console.log(arr[7]) // return people array (as arr's element)
+
