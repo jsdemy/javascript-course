@@ -2,7 +2,7 @@
 let n1 = 5;
 let v = 'this is sample';
 
-if(v.length > n1){
+if (v.length > n1) {
     console.log('yes')
 }
 
@@ -14,7 +14,7 @@ if (n1 == v.length) {
 
 
 // switch case 
-function calculator(x, y, operator){
+function calculator(x, y, operator) {
     let result = '';
     switch (operator) {
         case '+':
@@ -52,7 +52,7 @@ console.log(calculator(5, -3, '%'))
 // loops
 // for loop
 console.log('--------for loop--------')
-for(let i = 0; i <= 10; i++){
+for (let i = 0; i <= 10; i++) {
     console.log(i)
 }
 
@@ -61,7 +61,7 @@ for(let i = 0; i <= 10; i++){
 //while loop
 console.log('--------while loop--------')
 i = 13; // sentinal value
-while (i <= 20){
+while (i <= 20) {
     console.log(i)
     i++;
 }
@@ -75,7 +75,7 @@ for (const item of courses) {
 
 // iterating index and value of earch item
 console.log('----index and value----')
-for (let [index, value] of courses.entries()){
+for (let [index, value] of courses.entries()) {
     console.log(index, value)
 }
 
@@ -84,6 +84,18 @@ for (let [index, value] of courses.entries()){
 console.log('--------for..in--------')
 for (const item in courses) {
     console.log(item)
+}
+
+console.log('--------for..in--------')
+console.log('iterating property of object')
+const student = {
+    id: 1205,
+    first_name: "Ali",
+    last_name: "Yazdi",
+    age: 33
+}
+for (let prop in student) {
+    console.log(prop, student[prop])
 }
 
 
