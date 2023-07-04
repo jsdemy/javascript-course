@@ -74,3 +74,10 @@ for (const item of courses) {
 }
 
 
+// for..in
+console.log('--------for..of--------')
+for (const item in courses) {
+    console.log(item)
+}
+
+
