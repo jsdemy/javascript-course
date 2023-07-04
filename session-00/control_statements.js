@@ -14,6 +14,39 @@ if (n1 == v.length) {
 
 
 // switch case 
+function calculator(x, y, operator){
+    let result = '';
+    switch (operator) {
+        case '+':
+            result = `${x} + ${y} = ${x + y}`;
+            break;
+        case '+':
+            result = `${x} + ${y} = ${x + y}`;
+            break;
+        case '*':
+            result = `${x} * ${y} = ${x * y}`;
+            break;
+        case '/':
+            result = `${x} / ${y} = ${x / y}`;
+            break;
+        case '%':
+            result = `${x} % ${y} = ${x % y}`;
+            break;
+        case '**':
+            result = `${x} ** ${y} = ${x ** y}`;
+            break;
+        default:
+            result = 'unknown operator';
+            break;
+    }
+    return result;
+}
 
+console.log(calculator(5, -3, '+'))
+console.log(calculator(5, -3, '-'))
+console.log(calculator(5, -3, '*'))
+console.log(calculator(5, -3, '**'))
+console.log(calculator(5, -3, '/'))
+console.log(calculator(5, -3, '%'))
 
 // loop
