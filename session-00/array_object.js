@@ -12,3 +12,9 @@ console.log(lessons[1])
 console.log(lessons[0].id)
 console.log(lessons[0].name)
 console.log(lessons[0].isEnable)
+
+
+// array object to json object
+
+const jsonObj = JSON.stringify(lessons);
+console.log(jsonObj)
