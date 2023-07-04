@@ -19,3 +19,31 @@ function welcome(name){
 }
 
 welcome('Mir Hassan Moosavi');
+
+function calculator(x, y, operator){
+    let result = '';
+    switch (operator) {
+        case '+':
+            result = `${x} + ${y} = ${x + y}`;
+            break;
+        case '+':
+            result = `${x} + ${y} = ${x + y}`;
+            break;
+        case '*':
+            result = `${x} * ${y} = ${x * y}`;
+            break;
+        case '/':
+            result = `${x} / ${y} = ${x / y}`;
+            break;
+        case '%':
+            result = `${x} % ${y} = ${x % y}`;
+            break;
+        case '**':
+            result = `${x} ** ${y} = ${x ** y}`;
+            break;
+        default:
+            result = 'unknown operator';
+            break;
+    }
+    return result;
+}
