@@ -73,3 +73,19 @@ console.log(parts)
 console.log(parts.join('-'))
 
 console.log(typeof parts)
+
+// ==============================================
+
+/*
+reference datatypes
+(array - object - function)
+ */
+let people = ['ali', 'hassan', 'sara', 'melika']
+let arr = [42.0056, 77, -96.33, null, undefined, false, 0, people]
+
+console.log(people)
+console.log(arr)
+
+console.log(people.length)
+console.log(arr.length)
+
