@@ -81,7 +81,7 @@ for (let [index, value] of courses.entries()){
 
 
 // for..in
-console.log('--------for..of--------')
+console.log('--------for..in--------')
 for (const item in courses) {
     console.log(item)
 }
