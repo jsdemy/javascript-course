@@ -68,3 +68,6 @@ split string
 let ss = 'This is a sample JavaScript string';
 let parts = ss.split(' ')
 console.log(parts)
+
+// join
+console.log(parts.join('-'))
