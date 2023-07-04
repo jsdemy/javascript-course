@@ -96,3 +96,6 @@ console.log(arr[7]) // return people array (as arr's element)
 
 console.log(arr[7][1]) // hassan
 
+people[5] = 'jack';
+
+console.log(people) // ['ali', 'hassan', 'sara', 'melika', empty, 'jack']
