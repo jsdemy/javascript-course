@@ -113,5 +113,9 @@ console.log(people)
 people.pop()
 console.log(people) // the last item is gone!
 
+// get last item
 let lastItem = people.pop()
 console.log(lastItem) 
+
+people[4] = 'ahura'
+console.log(people)
