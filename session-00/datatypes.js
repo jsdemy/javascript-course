@@ -49,6 +49,16 @@ const full_name = `${fn} ${ln}`;
 console.log(full_name);
 
 
+/*
+js string methods
+ */
 
+let myStr = 'This is a sample JavaScript string';
+console.log(myStr)
+console.log(myStr.toUpperCase())
+console.log(myStr.toLocaleLowerCase())
+console.log(myStr[3])
+console.log(myStr.substring(0,9))
+console.log(myStr.substring(3,12))
 
 
