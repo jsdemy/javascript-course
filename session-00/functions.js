@@ -1,4 +1,4 @@
-// two types of functions
+// Three types of functions
 // ====================================
 // There are 3 ways of writing a function in JavaScript:
 // Function Declaration.
@@ -79,3 +79,17 @@ let f2 = function multiply(x, y) {
 }
 
 console.log(f2(120, 48));
+
+
+
+/* 3 ways of writing a function in JavaScript: */
+// ==============================================
+// Syntax for Function Declaration:
+// function functionName(x, y) { statements... return (z) };
+
+// Syntax for Function Expression (anonymous):
+// let variableName = function(x, y) { statements... return (z) };
+
+// Syntax for Function Expression (named): 
+// let variableName = function functionName(x, y) 
+// { statements... return (z) };
