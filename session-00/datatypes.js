@@ -108,3 +108,10 @@ console.log(people)
 // unshift method
 people.unshift('donya')
 console.log(people)
+
+// pop method
+people.pop()
+console.log(people) // the last item is gone!
+
+let lastItem = people.pop()
+console.log(lastItem) 
