@@ -71,3 +71,5 @@ console.log(parts)
 
 // join
 console.log(parts.join('-'))
+
+console.log(typeof parts)
