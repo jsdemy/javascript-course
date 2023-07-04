@@ -120,3 +120,6 @@ console.log(lastItem)
 // change item value
 people[4] = 'ahura'
 console.log(people)
+
+// indexOf
+console.log(people.indexOf('sara'))
