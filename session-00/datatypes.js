@@ -22,7 +22,23 @@ console.log(`typeof '${gender}' score=${typeof gender}`)
 console.log(`typeof '${undefinedVar}' score=${typeof undefinedVar}`)
 console.log(`typeof '${floatNumber}' score=${typeof floatNumber}`)
 
+/*
+js operators
+ */
+console.log(12 + 56)
+console.log(12 - 56)
+console.log(12 * 56)
+console.log(12 ** 56)
+console.log(56 / 12)
 
+let num = 25;
+console.log(num)
+num-- // ++
+num *= 4; // += -= *= /= %=
+console.log(num)
+
+console.log(50 % 5)
+console.log(13 % 2)
 
 
 
