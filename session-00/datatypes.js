@@ -62,3 +62,9 @@ console.log(myStr.substring(0,9))
 console.log(myStr.substring(3,12))
 
 
+/*
+split string 
+ */
+let ss = 'This is a sample JavaScript string';
+let parts = ss.split(' ')
+console.log(parts)
