@@ -1,6 +1,9 @@
 // oop in js
 
 const car = { type: "Fiat", model: "500", color: "white" };
+console.log(car)
+
+console.log('===========================')
 
 const p1 = {
     firstName: 'ali', lastName: 'yazdi', age: 34,
