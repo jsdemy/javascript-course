@@ -94,3 +94,5 @@ console.log(arr[2])
 
 console.log(arr[7]) // return people array (as arr's element)
 
+console.log(arr[7][1]) // hassan
+
