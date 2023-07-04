@@ -66,5 +66,11 @@ while (i <= 20){
     i++;
 }
 
+// for..of
+console.log('--------for..of--------')
+let courses = ['math', 'physics', 'biology'];
+for (const item of courses) {
+    console.log(item)
+}
 
 
