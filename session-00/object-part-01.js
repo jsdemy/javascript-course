@@ -20,8 +20,10 @@ const p2 = {
 };
 
 
-console.log(`${p1.firstName} ${p1.lastName} is ${p1.age} years old`)
+console.log(`${p1.firstName} ${p1.lastName} is ${p1.age} years old`);
 
-console.log(p1.chessScors[2])
+console.log(p1.chessScores[2]);
 
-console.log(`"${p2.firstName} ${p2.lastName}" grade in Physics is: ${p2.grades.Physics}`)
+console.log(`"${p2.firstName} ${p2.lastName}" grade in Physics is: ${p2.grades.Physics}`);
+
+console.log((p2.grades.Biology + p2.grades.Math + p2.grades.Physics)/3);
