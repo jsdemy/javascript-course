@@ -100,3 +100,11 @@ people[5] = 'jack';
 
 console.log(people) // ['ali', 'hassan', 'sara', 'melika', empty, 'jack']
 console.log(people[4]) // undefined: because item's value is empty
+
+// push item into array
+people.push('amir')
+console.log(people)
+
+// unshift method
+people.unshift('donya')
+console.log(people)
