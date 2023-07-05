@@ -49,6 +49,18 @@ console.log('----------filter-----------')
 // filter()
 let newList = courses.filter((x) => {
     return x.isAvailable
+})
+
+console.log(newList)
+
+newList = newList.map((x) => {
+    return x.courseName
+})
+
+console.log(newList)
+
+newList = courses.filter((x) => {
+    return x.isAvailable
 }).map((x) => {
     return x.courseName
 })
