@@ -12,6 +12,9 @@ if (n1 == v.length) {
     console.log(`n1=${n1} != "${v}".length`)
 }
 
+let res = n1 >= v.length ? 'yyyy' : 'nnnnnn';
+console.log(res)
+
 
 // switch case 
 function calculator(x, y, operator) {
@@ -20,7 +23,7 @@ function calculator(x, y, operator) {
         case '+':
             result = `${x} + ${y} = ${x + y}`;
             break;
-        case '+':
+        case '-':
             result = `${x} + ${y} = ${x + y}`;
             break;
         case '*':
@@ -43,7 +46,7 @@ function calculator(x, y, operator) {
 }
 
 console.log(calculator(5, -3, '+'))
-console.log(calculator(5, -3, '-'))
+console.log(calculator(5, -3, '-')) 
 console.log(calculator(5, -3, '*'))
 console.log(calculator(5, -3, '**'))
 console.log(calculator(5, -3, '/'))
