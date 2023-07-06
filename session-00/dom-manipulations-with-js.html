@@ -10,6 +10,7 @@
 
 <body>
     <div class="container">
+        <button id="btnChangeBgColor" type="button">Generate eandom color</button>
         <h3>Contact Form</h3>
         <h5 id="msg"></h5>
         <form id="my-form">
@@ -25,7 +26,11 @@
                 <option value="canada">Canada</option>
                 <option value="usa">USA</option>
             </select>
-
+            <br>
+            <label for="fav-color">Favorite color</label>
+            <input type="color" id="fav-color">
+            <hr>
+            <br>
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
