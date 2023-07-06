@@ -39,3 +39,9 @@ input[type=submit]:hover {
     width: 66%;
     margin: auto;
 }
+
+.error{
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+    padding: 5px;
+}
