@@ -6,14 +6,17 @@
 // const msg = document.querySelector("#msg").innerHTML = 'message <mark>comes here</mark>';
 // const el = document.querySelector('div');
 // const allDiv = document.querySelectorAll('div');
-
-// console.log(allDiv)
+const bodyElement = document.querySelector('body');
+bodyElement.addEventListener('dblclick', () => {
+    console.log('double clicked on body!')
+})
 
 
 const myform = document.querySelector('#my-form')
 const fname = document.querySelector('#fname')
 const lname = document.querySelector('#lname')
 const country = document.querySelector('#country')
+const favColor = document.querySelector('#fav-color')
 const subject = document.querySelector('#subject')
 const msg = document.querySelector('#msg')
 const contacts_ol = document.querySelector('#contacts-list')
@@ -35,6 +38,8 @@ function onSubmitForm(e) {
         const itemText = `${fname.value} ${lname.value} from '${country.value}': (${subject.value})`
 
         newContactItem.appendChild(document.createTextNode(itemText))
+        newContactItem.style.backgroundColor = favColor.value
+        newContactItem.style.padding = '5px'
 
         contacts_ol.appendChild(newContactItem)
 
@@ -44,4 +49,15 @@ function onSubmitForm(e) {
     }
 }
 
+
+const btnChangeBgColor = document.querySelector('#btnChangeBgColor')
+
+btnChangeBgColor.addEventListener('click', () => {
+    let maxVal = 0xFFFFFF; // 16777215
+    let randomNumber = Math.random() * maxVal;
+    randomNumber = Math.floor(randomNumber);
+    let randColor = randomNumber.toString(16);
+    console.log(randColor)
+    bodyElement.style.backgroundColor = `#${randColor}`;
+})
 
