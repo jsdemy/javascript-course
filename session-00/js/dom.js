@@ -15,7 +15,7 @@ const fname = document.querySelector('#fname')
 const lname = document.querySelector('#lname')
 const country = document.querySelector('#country')
 const subject = document.querySelector('#subject')
-const msg = document.querySelector('.msg')
+const msg = document.querySelector('#msg')
 const contacts_ol = document.querySelector('#contacts-list')
 
 
@@ -29,10 +29,12 @@ function onSubmitForm(e) {
         setTimeout(() => {
             msg.innerHTML = ''
             msg.classList.remove('error')
-        }, 3000)
+        }, 7000)
     } else {
         const newContactItem = document.createElement('li')
-        newContactItem.appendChild(document.createTextNode(`${fname} ${lname} from '${country}': (<small>${subject}</small>)`))
+        const itemText = `${fname.value} ${lname.value} from '${country.value}': (${subject.value})`
+
+        newContactItem.appendChild(document.createTextNode(itemText))
 
         contacts_ol.appendChild(newContactItem)
 
