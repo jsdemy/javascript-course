@@ -19,7 +19,27 @@ const msg = document.querySelector('.msg')
 const contacts_ol = document.querySelector('#contacts-list')
 
 
+myform.addEventListener('submit', onSubmitForm)
 
+function onSubmitForm(e) {
+    e.preventDefault()
+    if (fname.value === '' || lname.value === '' || subject.value === '') {
+        msg.innerHTML = "all fields are required"
+        msg.classList.add('error')
+        setTimeout(() => {
+            msg.innerHTML = ''
+            msg.classList.remove('error')
+        }, 3000)
+    } else {
+        const newContactItem = document.createElement('li')
+        newContactItem.appendChild(document.createTextNode(`${fname} ${lname} from '${country}': (<small>${subject}</small>)`))
 
+        contacts_ol.appendChild(newContactItem)
+
+        fname.value = ''
+        lname.value = ''
+        subject.value = ''
+    }
+}
 
 
