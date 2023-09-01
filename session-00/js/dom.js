@@ -27,7 +27,7 @@ myform.addEventListener('submit', onSubmitForm)
 function onSubmitForm(e) {
     e.preventDefault()
     if (fname.value === '' || lname.value === '' || subject.value === '') {
-        msg.innerHTML = "all fields are required"
+        msg.innerHTML = "All fields are required"
         msg.classList.add('error')
         setTimeout(() => {
             msg.innerHTML = ''
