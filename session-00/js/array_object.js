@@ -1,7 +1,8 @@
 // an array contains objects
 const lessons = [
     {id: 1, name: 'math', isEnable: true},
-    {id: 2, name: 'chemistry', isEnable: false}
+    {id: 2, name: 'chemistry', isEnable: false},
+    {id: 3, name: 'biology', isEnable: true},
 ];
 
 console.log(lessons)
